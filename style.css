@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.title{
+    font-size: 25px;
+}
+
+section{
+    padding: 20px;
+    background-image: url(./images/play-guitar.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.formContainer{
+    padding: 20px;
+    float: right;
+    background-color: #FFFFFFBB;
+    max-width: 230px;
+}
+
+h2{
+    font-size: 16px;
+}
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    background: black;
+    font-weight: bold;
+    color: white;
+}
+
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url('./images/arrow1.png');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+#picture{
+    width: 180px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 30px;
+
+}
+
+
+.description{
+    margin-top: 20px;
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+    background-position-y: center;
+    transform: translateY(-10%);
+ 
+}
+.description p, .description h3{
+    margin-bottom: 10px;
+    text-align: left;
+    line-height: 1.7;
+}
